@@ -3,4 +3,33 @@ Flutter Version Management (FVM)
 
 -> We use this for managing diffirent versions of flutter
 
+-> For example, we have different projects and all projects have different SDK versions, then we dont need to install all of the versions manually.
+
+we simply use FVM for version management.
+
+Follow this also:  https://fvm.app/documentation/getting-started/installation
+
+Firstly we need to install FVM
+Run:  For Mac
+brew install fvm
+
+Then for checking all the version 
+Run: fvm releases
+It shows the List of versions 
+
+then for install specific version
+Run: fvm install version_number 
+Like fvm instal 3.22.2
+
+
+So, if we install 3 to 4 versions then for choose anyone 
+Run: fvm use 2.22.2
+
+For checking which versions is installed, then 
+Run: fvm list
+ 
+
+
+
+
 
